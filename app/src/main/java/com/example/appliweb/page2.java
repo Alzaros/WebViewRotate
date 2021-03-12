@@ -20,7 +20,7 @@ public class page2 extends Activity {
 
         WebView webView2 = findViewById(R.id.webview2);
         webView2.setWebViewClient(new WebViewClient());
-        webView2.loadUrl("http://prtg.groupeherve.com:81/2.htm");
+        webView2.loadUrl("http://www.google.com");
 
         WebSettings webSettings = webView2.getSettings();
         webView2.getSettings().setSupportMultipleWindows(true);

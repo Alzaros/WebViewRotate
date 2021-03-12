@@ -21,7 +21,7 @@ public class page1 extends Activity {
 
         WebView webView = findViewById(R.id.webview);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("https://prtg.groupeherve.com/public/1.htm");
+        webView.loadUrl("https://github.com/Alzaros");
 
         WebSettings webSettings = webView.getSettings();
         webView.getSettings().setSupportMultipleWindows(true);
